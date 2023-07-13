@@ -25,15 +25,19 @@
         #input {
             margin-bottom: 20px;
         }
+        #eliminar {
+            margin-left: 180px;
+        }
         #enviar {
             margin-top: 20px;
+            margin-left: 155px;
         }
     </style>
 </head>
 <body>
     <div class="contenedor">
         <h1>FORMULARIO DINAMICO TAREA NUMERO 4 </h1>
-        <h1>AGREGAR, ELIMINAR Y ENVIAR DATOS </h1>
+        <h5>AGREGAR, ELIMINAR Y ENVIAR DATOS </h5>
         <form id="formul" action="#" method="POST">
             <div id="input"></div>
             <button id="agregar" class="btn btn-primary" type="button">AGREGAR</button>
