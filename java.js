@@ -19,4 +19,16 @@ document.addEventListener('DOMContentLoaded', function() {
     
             inputCount++;
         }
+            // aqui se creo un Evento para agregar un nuevo input en el formulario
+        addInputBtn.addEventListener('click', function() {
+            createInput();
+        });
+
+        // Evento para eliminar el último input que se creo
+        removeInputBtn.addEventListener('click', function() {
+            if (inputCount > 0) {
+                inputsContainer.removeChild(inputsContainer.lastChild);
+                inputCount--;
+            }
+        });
 });
