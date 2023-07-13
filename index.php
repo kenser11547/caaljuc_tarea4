@@ -9,7 +9,7 @@
     
     <style>
           body {
-            background-image: url(/images.jpg);
+            background-color: #75A6FC;
             background-size:cover;
             background-attachment: fixed;
         }
