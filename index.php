@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TAREA NUMERO 4 "FORMULARIO DINAMICO</title>
+        <!-- Agregar los estilos de Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
     <style>
         .contenedor {
             max-width: 500px;
+            margin: 0 auto;
             margin-top: 50px;
         }
         h1 {

@@ -43,18 +43,19 @@ document.addEventListener('DOMContentLoaded', function() {
         inputs.forEach(function(input) {
             if (input.value.trim() === '') {
                 isValid = false;
-                input.style.border = '3px solid green';
+                input.style.border = '4px solid red';
             } else {
                 input.style.border = '';
             }
         });
-
-        if (isValid) {
-            // Enviar el formulario
+        //crear las alertas donde indique si existe formulario, si se envia o se debe completar todos los campos
+        if (inputCount === 0) {
+            alert('No hay ningún formulario.');
+          } else if (isValid) {
             alert('Formulario enviado exitosamente!');
             form.reset();
-        } else {
+          } else {
             alert('Por favor, complete todos los campos.');
-        }
+          }
     });
 });
