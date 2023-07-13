@@ -6,4 +6,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const removeInputBtn = document.getElementById('eliminar');
 
     let inputCount = 0;
+
+
+        // aqui se crea una Función para crear un nuevo input tipo texto 
+        function createInput() {
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.name = `input${inputCount}`;
+            input.placeholder = 'Escriba el nombre del usuario';
+    
+            inputsContainer.appendChild(input);
+    
+            inputCount++;
+        }
 });
