@@ -31,4 +31,30 @@ document.addEventListener('DOMContentLoaded', function() {
                 inputCount--;
             }
         });
+        
+        // se creo el Evento para validar y enviar el formulario
+        form.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        let isValid = true;
+
+        // Verificar que todos los inputs estén llenos para enviar los datos
+        const inputs = Array.from(inputsContainer.getElementsByTagName('input'));
+        inputs.forEach(function(input) {
+            if (input.value.trim() === '') {
+                isValid = false;
+                input.style.border = '3px solid green';
+            } else {
+                input.style.border = '';
+            }
+        });
+
+        if (isValid) {
+            // Enviar el formulario
+            alert('Formulario enviado exitosamente!');
+            form.reset();
+        } else {
+            alert('Por favor, complete todos los campos.');
+        }
+    });
 });
