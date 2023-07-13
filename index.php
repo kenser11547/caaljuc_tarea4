@@ -17,10 +17,15 @@
             max-width: 500px;
             margin: 0 auto;
             margin-top: 50px;
+            margin-bottom: 30px;
+            box-shadow: 2px 2px 25px black;
         }
-        h1 {
+        h1, h5 {
             text-align: center;
             margin-bottom: 30px;
+        }
+        form{
+            text-align: center;
         }
         #input {
             margin-bottom: 20px;
@@ -30,7 +35,6 @@
         }
         #enviar {
             margin-top: 20px;
-            margin-left: 155px;
         }
     </style>
 </head>
