@@ -9,7 +9,7 @@
     
     <style>
           body {
-            background-image: url(../5.jpg);
+            background-image: url(/images.jpg);
             background-size:cover;
             background-attachment: fixed;
         }
@@ -32,7 +32,8 @@
 </head>
 <body>
     <div class="contenedor">
-        <h1>FORMULARIO DINAMICO</h1>
+        <h1>FORMULARIO DINAMICO TAREA NUMERO 4 </h1>
+        <h1>AGREGAR, ELIMINAR Y ENVIAR DATOS </h1>
         <form id="formul" action="#" method="POST">
             <div id="input"></div>
             <button id="agregar" class="btn btn-primary" type="button">AGREGAR</button>
