@@ -8,6 +8,11 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     
     <style>
+          body {
+            background-image: url(../5.jpg);
+            background-size:cover;
+            background-attachment: fixed;
+        }
         .contenedor {
             max-width: 500px;
             margin: 0 auto;
