@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TAREA NUMERO 4 "FORMULARIO DINAMICO</title>
+    <style>
+        .contenedor {
+            max-width: 500px;
+            margin-top: 50px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        #input {
+            margin-bottom: 20px;
+        }
+        #enviar {
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
+    <div class="contenedor">
         <h1>FORMULARIO DINAMICO</h1>
         <form id="formul" action="#" method="POST">
             <div id="input"></div>
